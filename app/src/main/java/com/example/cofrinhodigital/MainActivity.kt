@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TelaCofrinho() {
     // Estados da tela
-    var valorGuardado by remember { mutableStateOf(0) }
+    var valorGuardado by remember { mutableIntStateOf(0) }
     val metaTotal = 500
 
     // Cálculo do progresso entre 0.0 (0%) e 1.0 (100%)
