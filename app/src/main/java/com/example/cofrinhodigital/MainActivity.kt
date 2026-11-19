@@ -95,7 +95,7 @@ fun TelaCofrinho() {
                     text = "R$ $valorGuardado,00",
                     fontSize = 36.sp,
                     fontWeight = FontWeight.ExtraBold,
-                    color = Color(0xFF2E7D32)
+                    color = if (valorGuardado >= metaTotal) Color(0xFF1565C0) else Color(0xFF2E7D32)
                 )
 
                 Spacer(modifier = Modifier.height(16.dp))
@@ -107,7 +107,7 @@ fun TelaCofrinho() {
                         .fillMaxWidth()
                         .height(12.dp)
                         .clip(RoundedCornerShape(6.dp)),
-                    color = Color(0xFF2E7D32),
+                    color = if (valorGuardado >= metaTotal) Color(0xFF1565C0) else Color(0xFF2E7D32),
                     trackColor = Color(0xFFE0E0E0)
                 )
 
@@ -129,6 +129,16 @@ fun TelaCofrinho() {
                         color = Color.Gray
                     )
                 }
+
+                if (valorGuardado >= metaTotal) {
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "Meta alcançada!",
+                        fontSize = 14.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color(0xFF1565C0)
+                    )
+                }
             }
         }
 
@@ -145,7 +155,7 @@ fun TelaCofrinho() {
                     .weight(1f) // Ocupa 50% da largura
                     .height(50.dp),
                 shape = RoundedCornerShape(12.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF2E7D32))
+                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF0A6513))
             ) {
                 Text(text = "+ R$ 25", fontSize = 16.sp, fontWeight = FontWeight.Bold)
             }
