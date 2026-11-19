@@ -1,16 +1,16 @@
-# 🐷 Cofrinho Digital
+# Cofrinho Digital
 
 **Cofrinho Digital** é um aplicativo Android intuitivo desenvolvido em **Jetpack Compose** com a finalidade de ajudar os usuários a gerenciar suas economias e acompanhar metas financeiras de forma simples e visual.
 
 ---
 
-## 🎯 Objetivo do App
+## Objetivo do App
 
 O aplicativo tem como objetivo incentivar a economia pessoal permitindo que o usuário defina uma meta financeira (ex: comprar um fone Bluetooth) e acompanhe o progresso do saldo acumulado em tempo real através de uma interface moderna e responsiva.
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 - **Acompanhamento de Saldo e Meta**: Exibição do valor guardado e da meta estipulada em reais.
 - **Barra de Progresso Dinâmica**: Indicador visual e percentual do andamento em direção ao objetivo.
@@ -21,7 +21,7 @@ O aplicativo tem como objetivo incentivar a economia pessoal permitindo que o us
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem**: Kotlin
 - **UI Framework**: Jetpack Compose (Material 3)
@@ -30,7 +30,7 @@ O aplicativo tem como objetivo incentivar a economia pessoal permitindo que o us
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Clonar o Repositório**:
    ```bash
