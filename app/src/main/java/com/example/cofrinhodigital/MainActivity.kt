@@ -174,6 +174,23 @@ fun TelaCofrinho() {
 
         Spacer(modifier = Modifier.height(12.dp))
 
+        // Botão de retirada para simular resgate sem permitir saldo negativo
+        OutlinedButton(
+            onClick = {
+                if (valorGuardado >= 25) {
+                    valorGuardado -= 25
+                }
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(50.dp),
+            shape = RoundedCornerShape(12.dp)
+        ) {
+            Text(text = "- R$ 25", fontSize = 16.sp, fontWeight = FontWeight.Bold)
+        }
+
+        Spacer(modifier = Modifier.height(12.dp))
+
         TextButton(
             onClick = { valorGuardado = 0 },
             modifier = Modifier.fillMaxWidth()
