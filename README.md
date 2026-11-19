@@ -4,12 +4,6 @@
 
 ---
 
-## Objetivo do App
-
-O aplicativo tem como objetivo incentivar a economia pessoal permitindo que o usuário defina uma meta financeira (ex: comprar um fone Bluetooth) e acompanhe o progresso do saldo acumulado em tempo real através de uma interface moderna e responsiva.
-
----
-
 ## Funcionalidades Principais
 
 - **Acompanhamento de Saldo e Meta**: Exibição do valor guardado e da meta estipulada em reais.
@@ -18,15 +12,6 @@ O aplicativo tem como objetivo incentivar a economia pessoal permitindo que o us
 - **Simulação de Retirada**: Botão para efetuar saques (`- R$ 25`) com proteção contra saldo negativo.
 - **Feedback Visual de Meta Atingida**: Mudança automática da cor do saldo e da barra de progresso para azul quando a meta é alcançada, exibindo também a mensagem `"Meta alcançada!"`.
 - **Reiniciar Cofrinho**: Opção para zerar o saldo acumulado a qualquer momento.
-
----
-
-## Tecnologias Utilizadas
-
-- **Linguagem**: Kotlin
-- **UI Framework**: Jetpack Compose (Material 3)
-- **Ferramenta de Build**: Gradle (Kotlin DSL)
-- **IDE**: Android Studio
 
 ---
 
